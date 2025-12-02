@@ -1,4 +1,4 @@
-![RUN NEØ](https://ipfs.io/ipfs/bafybeig6o227nzrqqem3gmrk4fo3xksgc7yvaj7aawfsya7qj4e23d32su) 
+![RUN NEØ](https://ipfs.io/ipfs/bafybeig6o227nzrqqem3gmrk4fo3xksgc7yvaj7aawfsya7qj4e23d32su)
 
 
 # NODE NEWS • BREAKING NEWS
@@ -101,7 +101,7 @@ Sinais do MCP indicam que o Render Engine pode executar outra peça dentro das p
 
 ---
 
-## Conclusão 
+## Conclusão
 
 O RUN NEØ acabou de sair do modo experimental.  
 E entrou no modo operacional.
