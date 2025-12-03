@@ -1,0 +1,59 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build e cache
+dist/
+build/
+.cache/
+.next/
+.vercel/
+
+# Temporários
+tmp/
+temp/
+*.tmp
+
+# Arquivos de configuração sensíveis
+*.pem
+*.key
+*.cert
+secrets.json
+
+# Fly.io
+.fly/
+
+# IPFS local
+.ipfs/
+
