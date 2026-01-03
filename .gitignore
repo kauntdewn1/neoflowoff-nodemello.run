@@ -1,0 +1,40 @@
+# Arquivos de ambiente e tokens
+.env
+*.env
+*.key
+*.pem
+
+# Arquivos sensíveis (tokens e credenciais reais)
+senhas.txt
+*.token
+*token.txt
+*secrets*
+*secret*
+*password*
+*.key
+*.pem
+.env
+.env.local
+.env.*.local
+
+# Arquivos do projeto Gmail (projeto atual)
+script_try_access.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
