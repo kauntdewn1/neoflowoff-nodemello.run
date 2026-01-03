@@ -1,23 +1,64 @@
-# Arquivos de ambiente e tokens
-.env
-*.env
-*.key
-*.pem
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
 
-# Arquivos sensíveis (tokens e credenciais reais)
-senhas.txt
+# Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build e cache
+dist/
+build/
+.cache/
+.next/
+.vercel/
+
+# Temporários
+tmp/
+temp/
+*.tmp
+
+# Arquivos de configuração sensíveis
+*.pem
+*.key
+*.cert
+secrets.json
 *.token
 *token.txt
 *secrets*
 *secret*
 *password*
-*.key
-*.pem
-.env
-.env.local
-.env.*.local
 
 # Arquivos do projeto Gmail (projeto atual)
+senhas.txt
 script_try_access.py
 
 # Python
@@ -31,10 +72,8 @@ venv/
 ENV/
 env/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Fly.io
+.fly/
 
+# IPFS local
+.ipfs/
